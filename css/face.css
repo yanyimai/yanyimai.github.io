@@ -1,0 +1,158 @@
+body, html {
+	margin: 0 auto;
+	padding: 0;
+	background: #ffe6e6;
+	font-family: 'Handlee', cursive;
+	
+}
+
+#nav-content {
+	width: 50px;
+	height: 24px;
+	margin: 0px;
+	padding: 10px;
+	background-color: white;
+	opacity: .7;
+	position: relative;
+	top: 20px;
+	left: 50px;
+	z-index: 20;
+	border-radius: 10px;
+	 box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+h1 {
+	position:relative;
+	top:10px;
+	left:42%;
+}
+ /*#f-row {
+	position: relative;
+	top: 20px;
+	left: -20px;
+	width: 980px;
+	height: 360px;
+	border-color: white;
+
+}
+*/
+
+#foundation1 {
+	float: left;
+	position: relative;
+	cursor: pointer;
+	border-radius: 3px;
+	margin:40px;
+	border-width: 1px;
+	border-color: black;
+	left:300px;
+	display: inline-block;
+}
+
+#foundation2 {
+	float: left;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	border-radius: 3px;
+	margin:0px 40px 40px 90px;
+	border-width: 1px;
+	border-color: grey;
+	left:230px;
+	top:50px;
+}
+
+#foundation3 {
+	float: left;
+	position: relative;
+	cursor: pointer;
+	margin: 30px;
+	border-radius: 3px;
+	margin:0px 40px 40px 40px;
+	border-width: 1px;
+	border-color: grey;
+	left:200px;
+	top:50px;
+}
+.foundpic {
+	width: 225px;
+	opacity: 1;
+	border-radius: 5px;
+}
+
+.foundpic:hover {
+	opacity: 0.8;
+	transition: 0.3s;
+}
+
+.found-name {
+	position: relative;
+	margin:10px;
+	background-color: white;
+	padding: 5px;
+	width:  200px;
+	text-align: center;
+}
+
+.found-price {
+	position: relative;
+	margin:10px;
+	background-color: white;
+	display: inline;
+	padding: 5px;
+	text-align: center;
+	left:90px;
+}
+
+h2 {
+	position: relative;
+	top:420px;
+	right:24%;
+	font-size: 24pt;
+}
+
+#concealer1 {
+	float: left;
+	position: relative;
+	cursor: pointer;
+	border-radius: 3px;
+	margin:40px;
+	border-width: 1px;
+	border-color: black;
+	right:250px;
+	top:420px;
+	display: inline-block;
+}
+
+#concealer2 {
+	float: left;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	border-radius: 3px;
+	margin:0px 40px 40px 90px;
+	border-width: 1px;
+	border-color: grey;
+	left:350px;
+	top:50px;
+}
+
+.concealer-name {
+	position: relative;
+	margin:10px;
+	background-color: white;
+	padding: 5px;
+	width:  200px;
+	text-align: center;
+	left:15px;
+}
+
+.concealer-price {
+	position: relative;
+	margin:10px;
+	background-color: white;
+	display: inline;
+	padding: 5px;
+	text-align: center;
+	left:100px;
+}

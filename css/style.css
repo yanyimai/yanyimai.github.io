@@ -1,0 +1,122 @@
+body, html {
+	margin: 0 auto;
+	padding: 0;
+	background: #ffe6e6;
+	font-family: 'Handlee', cursive;
+	
+}
+
+#nav-content {
+	width: 50px;
+	height: 24px;
+	margin: 0px;
+	padding: 10px;
+	background-color: white;
+	opacity: .7;
+	position: fixed;
+	top: 20px;
+	left: 50px;
+	z-index: 20;
+	border-radius: 10px;
+	 box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#me {
+	position:absolute;
+	top:10px;	
+	margin:auto;
+	left:300px;
+	text-align: center;
+	display: block;
+}
+
+#me:hover { 
+	transition:0.45s; 
+	transform: rotate(5deg);
+}
+
+
+#button1 {
+	position: absolute;
+	display: inline-block;
+    background: black;
+    opacity: 0.6;
+    font-size: 28pt;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    top:480px;
+    left:500px;
+}
+
+#button1:hover {
+	cursor: pointer;
+	transition: .4s;
+	opacity:.8;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+}
+
+#button2 {
+	position: relative;
+	display: inline-block;
+    margin: 12px;
+    opacity: 0.6;
+    font-size: 28pt;
+    padding: 40px;
+    border-radius: 10px;
+    top:630px;
+    left:480px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#button2:hover {
+	cursor: pointer;
+	transition: .4s;
+	opacity:.8;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+}
+
+#button3 {
+	position: relative;
+	display: inline-block;
+    background: black;
+    margin: 12px;
+    opacity: 0.6;
+    font-size: 28pt;
+    padding: 40px 60px 40px 60px;
+    border-radius: 10px;
+    top:470px;
+  	left:550px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#button3:hover {
+	cursor: pointer;
+	transition: .4s;
+	opacity:.8;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+}
+
+#button4 {
+	position: relative;
+	display: inline-block;
+    background: black;
+    margin: 12px;
+    opacity: 0.6;
+    font-size: 28pt;
+    padding: 40px 60px 40px 60px;
+    border-radius: 10px;
+    top:630px;
+    left:345px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#button4:hover {
+	cursor: pointer;
+	transition: .4s;
+	opacity:.8;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+}
+
+
+

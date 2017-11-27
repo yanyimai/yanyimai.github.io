@@ -1,0 +1,125 @@
+body, html {
+	margin: 0 auto;
+	padding: 0;
+	background: #ffe6e6;
+	font-family: 'Handlee', cursive;
+	
+}
+
+#nav-content {
+	width: 50px;
+	height: 24px;
+	margin: 0px;
+	padding: 10px;
+	background-color: white;
+	opacity: .7;
+	position: relative;
+	top: 20px;
+	left: 50px;
+	z-index: 20;
+	border-radius: 10px;
+	 box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+h1 {
+	position:relative;
+	top:50px;
+	left:45%;
+}
+
+#lipstick1 {
+	float: left;
+	position: relative;
+	cursor: pointer;
+	border-radius: 3px;
+	margin:40px;
+	border-width: 1px;
+	border-color: black;
+	left:400px;
+	display: inline-block;
+	top:20px;
+}
+
+#lipstick2 {
+	float: left;
+	position: relative;
+	cursor: pointer;
+	border-radius: 3px;
+	margin:40px;
+	border-width: 1px;
+	border-color: black;
+	left:450px;
+	display: inline-block;
+	top:20px;
+}
+
+h2 {
+	position: relative;
+	top:320px;
+	right:1%;
+	font-size: 24pt;
+}
+
+#llipstick1 {
+	float: left;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	border-radius: 3px;
+	margin:0px 40px 40px 90px;
+	border-width: 1px;
+	border-color: grey;
+	right:250px;
+	top:360px;
+}
+
+
+#llipstick3 {
+	float: left;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	border-radius: 3px;
+	margin:0px 40px 40px 90px;
+	border-width: 1px;
+	border-color: grey;
+	right:250px;
+	top:360px;
+}
+
+.lippic {
+	width: 225px;
+	opacity: 1;
+	border-radius: 5px;
+}
+
+.lippic:hover {
+	opacity: 0.8;
+	transition: 0.3s;
+}
+
+
+
+
+.name {
+	position: relative;
+	margin:10px;
+	background-color: white;
+	padding: 5px;
+	width:  200px;
+	text-align: center;
+	left:3px;
+}
+
+.price {
+	position: relative;
+	margin:10px;
+	background-color: white;
+	display: inline;
+	padding: 5px;
+	text-align: center;
+	left:90px;
+}
+
+
+
